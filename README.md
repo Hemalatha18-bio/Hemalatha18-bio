@@ -4,6 +4,8 @@
 
 M.S. in Bioinformatics & Computational Biology from Saint Louis University (2026). I build reproducible computational workflows for biological data analysis and research computing, with an emphasis on scientific validity, automation, testing, monitoring, documentation, and reliable software practices.
 
+> **Currently:** HPC Engineering Intern at Washington University in St. Louis, working at the intersection of research computing, infrastructure automation, monitoring, documentation, and scalable scientific/AI workloads.
+
 ## Current Role
 
 ### 🖥️ HPC Engineering Intern — WashU IT
