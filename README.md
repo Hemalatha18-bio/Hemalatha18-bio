@@ -1,53 +1,57 @@
 # Hi, I'm Hemalatha Ponnam 👋
 
-Bioinformatics & Computational Biology | Python | NGS | Metagenomics | Proteomics | Machine Learning
+**Bioinformatics & Computational Biology | Python | NGS | Metagenomics | Proteomics | Machine Learning**
 
-I build reproducible computational workflows for biological data analysis, with interests spanning genomics, metagenomics, proteomics, machine learning, workflow automation, and research software practices.
+M.S. Bioinformatics & Computational Biology. I build reproducible computational workflows for biological data analysis, with an emphasis on scientific validity, testable software, workflow automation, and clear separation between reproducible public demos and broader research experience.
 
-## Core Skills
+## What I Bring
 
-- **Programming & data analysis:** Python, pandas, scikit-learn, matplotlib
-- **Bioinformatics:** NGS, FASTQ processing, gene-expression analysis, metagenomics, proteomics
-- **Machine learning:** classification, feature importance, model evaluation, explainability
-- **Workflow & reproducibility:** Snakemake, SLURM/HPC, Git, GitHub Actions, pytest
-- **Data formats & tools:** FASTQ, CSV/TSV, JSON, parquet, DIA-NN-style outputs
+- **Bioinformatics analysis:** NGS, FASTQ processing, gene-expression data, microbiome/metagenomics, computational proteomics
+- **Python & data science:** pandas, NumPy, SciPy, statsmodels, scikit-learn, XGBoost, matplotlib
+- **Machine learning:** leakage-aware preprocessing, stratified cross-validation, classification, feature importance, SHAP explainability
+- **Statistics:** nonparametric testing, multiple-testing correction, Q-value/FDR-aware analysis
+- **Research software:** CLI tools, validation/error handling, pytest, GitHub Actions CI, reproducible example datasets
+- **Workflow & HPC:** Snakemake, Linux, SLURM/HPC, structured result generation
+- **Scientific data formats:** FASTQ, CSV/TSV, JSON, parquet, DIA-NN-style outputs
 
 ## Featured Projects
 
 ### 🧬 Colorectal Cancer Metagenomics Pipeline
-Reproducible metagenomics and machine-learning workflow with leakage-aware preprocessing, real output visualization, testing, GitHub Actions CI, Snakemake, and SLURM/HPC examples.
+Reproducible microbiome analysis demo with per-feature Kruskal-Wallis testing, **Benjamini-Hochberg FDR correction**, leakage-safe Random Forest/SVM pipelines, repeated stratified cross-validation, feature importance, committed example outputs, automated tests, CI, Snakemake, and SLURM/HPC examples.
 
 [View repository](https://github.com/Hemalatha18-bio/colorectal-cancer-metagenomics-pipeline)
 
 ### 🧠 Alzheimer's Gene Prediction with Machine Learning
-Gene-expression ML project using leakage-safe preprocessing, multiple classifiers, exported evaluation metrics, SHAP-based explainability, testing, CI, Snakemake, and SLURM.
+Biological-feature ML demo with numeric/missing-value validation, leakage-aware scaling and PCA, Random Forest/SVM/XGBoost comparison, **repeated stratified cross-validation**, SHAP explainability, committed reproducible metrics/figures, testing, CI, Snakemake, and SLURM.
 
 [View repository](https://github.com/Hemalatha18-bio/alzheimers-gene-prediction-ml)
 
 ### 🧪 DIA-PASEF Proteomics Analysis
-Reproducible DIA-NN post-processing and QC workflow with CLI tools, validation, generated QC visualization, testing, GitHub Actions, Snakemake, and SLURM examples.
+Reproducible DIA-NN downstream post-processing and QC demo with parquet/CSV/TSV handling, Q-value threshold counts and percentages, quantity summaries, missing-value diagnostics, committed QC outputs/visualization, testing, GitHub Actions, Snakemake, and SLURM examples.
 
 [View repository](https://github.com/Hemalatha18-bio/dia-pasef-proteomics-analysis)
 
-### 🧬 FASTQ Interleaving Utility
-Tested Python CLI for paired-end FASTQ interleaving with gzip support, unequal-pair detection, optional mate-ID validation, synthetic examples, and CI.
+### 🧬 FASTQ Interleaving CLI
+Focused bioinformatics software-engineering project: tested Python CLI for paired-end FASTQ interleaving with gzip support, unequal-pair detection, optional mate-ID validation, failure-safe output cleanup, deterministic examples, CI, and an MIT license.
 
 [View repository](https://github.com/Hemalatha18-bio/BCB5250_FASTQ_Interleaving)
 
-## What I Focus On
+## Portfolio Focus
 
-I am especially interested in building analysis workflows that are clear, reproducible, testable, and suitable for collaborative scientific environments. My portfolio projects emphasize not only biological analysis, but also software quality through validation, automated tests, CI, workflow management, and HPC-aware execution.
+My projects are designed to demonstrate the combination of **biological data analysis and reliable scientific software**. Across the portfolio, I emphasize:
 
-## Current Interests
+- preprocessing that avoids data leakage;
+- statistical methods that account for multiple testing where appropriate;
+- model evaluation beyond a single train/test split;
+- input validation and explicit failure handling;
+- automated tests and continuous integration;
+- reproducible workflows and machine-readable outputs; and
+- careful documentation of what the public repository does and does not reproduce.
 
-- Bioinformatics and computational biology
-- Genomics and transcriptomics
-- Metagenomics and microbiome analysis
-- Proteomics
-- Machine learning for biological data
-- Reproducible scientific computing
-- Research workflow automation
+## Areas of Interest
 
-## GitHub Portfolio
+Bioinformatics Scientist and Computational Biology work involving genomics/transcriptomics, microbiome analysis, computational proteomics, biological data science, machine learning for life sciences, and reproducible research workflows.
 
-My repositories are organized as public portfolio demonstrations. When original research data are unavailable, restricted, unpublished, or lab-owned, I use small example or synthetic datasets and clearly separate public reproducible code from broader project context.
+## Reproducibility Note
+
+When original research data are restricted, unpublished, large, or lab-owned, I use small public/synthetic example datasets so the software remains executable. Example-data performance values are clearly labeled as **software-demonstration results rather than scientific or clinical claims**, while broader project experience is documented separately.
