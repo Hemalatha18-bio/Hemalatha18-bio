@@ -28,7 +28,7 @@ Current focus areas include:
 ## Featured Projects
 
 ### 🖥️ Research Computing DevOps Lab
-Sanitized HPC/DevOps portfolio demonstrating **Ansible Infrastructure as Code**, Linux/Bash health checks, monitoring/dashboard design, operational runbooks, troubleshooting practices, pytest, and GitHub Actions CI.
+Sanitized HPC/DevOps portfolio demonstrating **Ansible Infrastructure as Code**, Linux/Bash health checks, structured JSON output, monitoring/dashboard design, operational runbooks, troubleshooting practices, pytest, and GitHub Actions CI.
 
 [View repository](https://github.com/Hemalatha18-bio/research-computing-devops)
 
