@@ -50,7 +50,7 @@ Reproducible DIA-NN downstream QC workflow with **Q-value analysis, quantity sum
 ### 🧬 FASTQ Interleaving CLI
 Tested Python CLI for paired-end FASTQ interleaving with **gzip support, mate validation, unequal-pair detection, failure-safe cleanup, deterministic examples, CI, and an MIT license**.
 
-[View repository](https://github.com/Hemalatha18-bio/BCB5250_FASTQ_Interleaving)
+[View repository](https://github.com/Hemalatha18-bio/fastq-interleaving-cli)
 
 ## Portfolio Focus
 
