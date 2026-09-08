@@ -35,6 +35,11 @@ I am especially interested in the bridge between scientific computing and infras
 
 ## Featured Projects
 
+### 🖥️ Research Computing DevOps Lab
+Sanitized HPC/DevOps portfolio demonstrating **Ansible Infrastructure as Code**, Linux/Bash system-health collection, monitoring/dashboard design, operational runbooks, troubleshooting practices, pytest, and GitHub Actions CI. The repository uses generic examples only and contains no employer-internal infrastructure information.
+
+[View repository](https://github.com/Hemalatha18-bio/research-computing-devops)
+
 ### 🧬 Colorectal Cancer Metagenomics Pipeline
 Reproducible microbiome analysis demo with per-feature Kruskal-Wallis testing, **Benjamini-Hochberg FDR correction**, leakage-safe Random Forest/SVM pipelines, repeated stratified cross-validation, feature importance, committed example outputs, automated tests, CI, Snakemake, and SLURM/HPC examples.
 
