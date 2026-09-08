@@ -21,7 +21,7 @@ Current focus areas include:
 
 - **Bioinformatics:** NGS/FASTQ, gene-expression analysis, microbiome/metagenomics, computational proteomics
 - **Scientific Python & ML:** pandas, NumPy, SciPy, scikit-learn, XGBoost, SHAP, leakage-aware validation, repeated stratified CV
-- **Statistics:** nonparametric testing, multiple-testing correction, Q-value/FDR-aware analysis
+- **Statistics:** differential expression, nonparametric testing, multiple-testing correction, Q-value/FDR-aware analysis
 - **HPC & automation:** Linux, SLURM, Bash, Docker, Snakemake, Ansible, Git/GitHub
 - **Research software:** CLI tools, input validation, pytest, GitHub Actions CI, reproducible workflows, runbook-style documentation
 
@@ -31,6 +31,11 @@ Current focus areas include:
 Sanitized HPC/DevOps portfolio demonstrating **Ansible Infrastructure as Code**, Linux/Bash health checks, structured JSON output, monitoring/dashboard design, operational runbooks, troubleshooting practices, pytest, and GitHub Actions CI.
 
 [View repository](https://github.com/Hemalatha18-bio/research-computing-devops)
+
+### 🧬 NAFLD RNA-seq Transcriptomics — Real Public Data
+End-to-end analysis of **216 public human liver RNA-seq samples from GEO GSE135251** with reproducible NCBI download, cohort auditing, QC/PCA, **DESeq2**, Benjamini-Hochberg FDR correction, GO Biological Process enrichment, Snakemake, testing, and GitHub Actions. The verified F3–F4 vs F0–F1 run used 153 NAFLD samples and identified **551 genes at FDR < 0.05 and |log2FC| ≥ 1**, with extracellular-matrix/structure organization among the leading enriched processes.
+
+[View repository](https://github.com/Hemalatha18-bio/nafld-rnaseq-transcriptomics)
 
 ### 🧬 Colorectal Cancer Metagenomics Pipeline
 Reproducible microbiome analysis demo with **Kruskal-Wallis testing, Benjamini-Hochberg FDR correction, leakage-safe ML, repeated stratified cross-validation, Snakemake, SLURM, testing, and CI**.
@@ -54,7 +59,7 @@ Tested Python CLI for paired-end FASTQ interleaving with **gzip support, mate va
 
 ## Portfolio Focus
 
-My portfolio sits at the intersection of **biological data analysis, reliable scientific software, and research computing**. Across projects, I emphasize reproducibility, leakage-aware analysis, appropriate statistical correction, automated testing, CI, explicit failure handling, and Linux/HPC workflow practices.
+My portfolio sits at the intersection of **biological data analysis, reliable scientific software, and research computing**. Across projects, I emphasize reproducibility, count-aware or leakage-aware analysis, appropriate statistical correction, automated testing, CI, explicit failure handling, and Linux/HPC workflow practices.
 
 ## Publication
 
@@ -62,4 +67,4 @@ Co-author of **“Isolation of Peroxidase Enzyme from Various Vegetables and Cou
 
 ## Reproducibility Note
 
-When original research data are restricted, unpublished, large, or lab-owned, I use small public/synthetic examples so the software remains executable. Example-data performance values are labeled as **software-demonstration results rather than scientific or clinical claims**.
+The portfolio includes a fully reproducible analysis of public GEO RNA-seq data as well as projects that use small public/synthetic examples when original research data are restricted, unpublished, large, or lab-owned. Example-data performance values are labeled as **software-demonstration results rather than scientific or clinical claims**.
