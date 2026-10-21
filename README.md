@@ -6,6 +6,14 @@ I build **reproducible biological-data workflows** and **reliable scientific sof
 **M.S. Bioinformatics & Computational Biology — Saint Louis University (2026)**  
 **Current:** HPC Engineering Intern, Washington University in St. Louis (Aug 2026–present)
 
+## Live HPC dashboard
+
+**[Launch my interactive HPC Observability Dashboard →](https://hemalatha18-bio.github.io/research-computing-devops/)**
+
+[![Synthetic HPC dashboard preview](https://raw.githubusercontent.com/Hemalatha18-bio/research-computing-devops/main/monitoring/hpc_dashboard_mockup.svg)](https://hemalatha18-bio.github.io/research-computing-devops/)
+
+*Interactive, public-safe demonstration of SLURM job metrics, state/partition filters, completion and failure rates, and queue wait. Uses fictional data only; not connected to WashU systems or a live cluster.*
+
 ## Selected work
 
 | Project | Evidence and impact | Stack |
