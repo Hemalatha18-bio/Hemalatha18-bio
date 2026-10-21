@@ -1,70 +1,48 @@
-# Hi, I'm Hemalatha Ponnam 👋
+# Hemalatha Ponnam
+### Bioinformatics · Research Computing · HPC Automation · Scientific Python
 
-**Bioinformatics & Research Computing | HPC Automation | Scientific Python**
+I build **reproducible biological-data workflows** and **reliable scientific software**, from public RNA-seq analyses and machine-learning pipelines to Linux/HPC automation, testing, and monitoring.
 
-M.S. in Bioinformatics & Computational Biology from Saint Louis University (2026). I build reproducible computational workflows for biological data analysis and research computing, with a focus on automation, testing, monitoring, and reliable scientific software.
+**M.S. Bioinformatics & Computational Biology — Saint Louis University (2026)**  
+**Current:** HPC Engineering Intern, Washington University in St. Louis (Aug 2026–present)
 
-> **Currently:** HPC Engineering Intern at Washington University in St. Louis, working across research computing, infrastructure automation, monitoring, documentation, and scientific/AI workloads.
+## Selected work
 
-## Current Role
+| Project | Evidence and impact | Stack |
+| --- | --- | --- |
+| [NAFLD RNA-seq transcriptomics](https://github.com/Hemalatha18-bio/nafld-rnaseq-transcriptomics) | Reproducible analysis of **216 public liver samples** (GSE135251); DESeq2 fibrosis comparison identified **551 genes** at FDR < 0.05 and `|log2FC| ≥ 1` | R, DESeq2, Python, GO enrichment, Snakemake, CI |
+| [Research Computing DevOps Lab](https://github.com/Hemalatha18-bio/research-computing-devops) | Sanitized examples of compute-node automation, health checks, structured metrics, dashboard design and incident runbooks | Ansible, Bash, Linux, Python, pytest, GitHub Actions |
+| [FASTQ Interleaving CLI](https://github.com/Hemalatha18-bio/fastq-interleaving-cli) | Usable paired-end FASTQ CLI with gzip support, mate validation, failure-safe cleanup, sample data and automated tests | Python, Biopython, pytest, CI |
+| [Colorectal Cancer Metagenomics](https://github.com/Hemalatha18-bio/colorectal-cancer-metagenomics-pipeline) | Executable downstream abundance-table demo with FDR-controlled tests and leakage-aware ML; example results are **not** clinical findings | Python, SciPy, scikit-learn, Snakemake, SLURM |
+| [Alzheimer's Gene Prediction ML](https://github.com/Hemalatha18-bio/alzheimers-gene-prediction-ml) | Reproducible *example-data* model comparison, repeated cross-validation, preprocessing within folds and explainability | Python, scikit-learn, XGBoost, SHAP, CI |
+| [DIA-PASEF Proteomics Analysis](https://github.com/Hemalatha18-bio/dia-pasef-proteomics-analysis) | Reproducible downstream DIA-NN-style QC and Q-value reporting demonstration | Python, proteomics QC, Snakemake, SLURM |
 
-### 🖥️ HPC Engineering Intern — WashU IT
-**Washington University in St. Louis | Aug 2026 – Present**
+### Public-data result snapshot
 
-Current focus areas include:
+[![NAFLD RNA-seq differential expression volcano plot](https://raw.githubusercontent.com/Hemalatha18-bio/nafld-rnaseq-transcriptomics/main/figures/snapshot/volcano_deseq2.png)](https://github.com/Hemalatha18-bio/nafld-rnaseq-transcriptomics)
 
-- translating repeatable shell-based procedures into structured **Ansible / Infrastructure-as-Code** workflows;
-- supporting **Datadog monitoring, dashboards, runbooks, and operational documentation** for research-computing environments; and
-- testing and troubleshooting automation that supports **HPC and scientific/AI workloads**.
+*F3–F4 vs F0–F1 fibrosis contrast, based on public GEO GSE135251 processed counts. This is observational research, not a clinical test.*
 
-## Core Strengths
+## Technical toolkit
 
-- **Bioinformatics:** NGS/FASTQ, gene-expression analysis, microbiome/metagenomics, computational proteomics
-- **Scientific Python & ML:** pandas, NumPy, SciPy, scikit-learn, XGBoost, SHAP, leakage-aware validation, repeated stratified CV
-- **Statistics:** differential expression, nonparametric testing, multiple-testing correction, Q-value/FDR-aware analysis
-- **HPC & automation:** Linux, SLURM, Bash, Docker, Snakemake, Ansible, Git/GitHub
-- **Research software:** CLI tools, input validation, pytest, GitHub Actions CI, reproducible workflows, runbook-style documentation
+- **Bioinformatics:** RNA-seq, NGS/FASTQ, gene expression, metagenomics, proteomics QC, FDR-aware analysis
+- **Programming & analysis:** Python, R, pandas, NumPy, SciPy, scikit-learn, XGBoost, SHAP
+- **HPC & automation:** Linux, Bash, SLURM, Ansible, Docker, Snakemake
+- **Software quality:** Git/GitHub, pytest, GitHub Actions, input validation, reproducibility, documentation
+- **Monitoring & operations:** Datadog dashboard concepts, infrastructure health checks, troubleshooting runbooks
 
-## Featured Projects
+## What I work on
 
-### 🖥️ Research Computing DevOps Lab
-Sanitized HPC/DevOps portfolio demonstrating **Ansible Infrastructure as Code**, Linux/Bash health checks, structured JSON output, monitoring/dashboard design, operational runbooks, troubleshooting practices, pytest, and GitHub Actions CI.
+At WashU IT, my focus includes translating repeatable procedures into Ansible-based automation, supporting Datadog monitoring and operational documentation, and troubleshooting research-computing workflows. **Employer-specific infrastructure, credentials, and configurations are not published here.**
 
-[View repository](https://github.com/Hemalatha18-bio/research-computing-devops)
-
-### 🧬 NAFLD RNA-seq Transcriptomics — Real Public Data
-End-to-end analysis of **216 public human liver RNA-seq samples from GEO GSE135251** with reproducible NCBI download, cohort auditing, QC/PCA, **DESeq2**, Benjamini-Hochberg FDR correction, GO Biological Process enrichment, Snakemake, testing, and GitHub Actions. The verified F3–F4 vs F0–F1 run used 153 NAFLD samples and identified **551 genes at FDR < 0.05 and |log2FC| ≥ 1**, with extracellular-matrix/structure organization among the leading enriched processes.
-
-[View repository](https://github.com/Hemalatha18-bio/nafld-rnaseq-transcriptomics)
-
-### 🧬 Colorectal Cancer Metagenomics Pipeline
-Reproducible microbiome analysis demo with **Kruskal-Wallis testing, Benjamini-Hochberg FDR correction, leakage-safe ML, repeated stratified cross-validation, Snakemake, SLURM, testing, and CI**.
-
-[View repository](https://github.com/Hemalatha18-bio/colorectal-cancer-metagenomics-pipeline)
-
-### 🧠 Alzheimer's Gene Prediction with Machine Learning
-Gene-expression ML demo with **input validation, leakage-aware preprocessing, RF/SVM/XGBoost comparison, repeated stratified CV, SHAP explainability, testing, CI, Snakemake, and SLURM**.
-
-[View repository](https://github.com/Hemalatha18-bio/alzheimers-gene-prediction-ml)
-
-### 🧪 DIA-PASEF Proteomics Analysis
-Reproducible DIA-NN downstream QC workflow with **Q-value analysis, quantity summaries, missing-value diagnostics, committed outputs, testing, GitHub Actions, Snakemake, and SLURM**.
-
-[View repository](https://github.com/Hemalatha18-bio/dia-pasef-proteomics-analysis)
-
-### 🧬 FASTQ Interleaving CLI
-Tested Python CLI for paired-end FASTQ interleaving with **gzip support, mate validation, unequal-pair detection, failure-safe cleanup, deterministic examples, CI, and an MIT license**.
-
-[View repository](https://github.com/Hemalatha18-bio/fastq-interleaving-cli)
-
-## Portfolio Focus
-
-My portfolio sits at the intersection of **biological data analysis, reliable scientific software, and research computing**. Across projects, I emphasize reproducibility, count-aware or leakage-aware analysis, appropriate statistical correction, automated testing, CI, explicit failure handling, and Linux/HPC workflow practices.
+My portfolio deliberately distinguishes **verified real-public-data results** from **small synthetic/example-data software demos**. See each repository's README for its execution steps, evidence, and limitations.
 
 ## Publication
 
-Co-author of **“Isolation of Peroxidase Enzyme from Various Vegetables and Coupling to IgG”**, published in the *Nepal Journal of Science and Technology*, Vol. 22, No. 1, pp. 144–153.
+Co-author, *Isolation of Peroxidase Enzyme from Various Vegetables and Coupling to IgG*. **Nepal Journal of Science and Technology**, 22(1), 144–153.
 
-## Reproducibility Note
+## Explore
 
-The portfolio includes a fully reproducible analysis of public GEO RNA-seq data as well as projects that use small public/synthetic examples when original research data are restricted, unpublished, large, or lab-owned. Example-data performance values are labeled as **software-demonstration results rather than scientific or clinical claims**.
+- [Browse all repositories](https://github.com/Hemalatha18-bio?tab=repositories)
+- [Start with the reproducible NAFLD analysis](https://github.com/Hemalatha18-bio/nafld-rnaseq-transcriptomics)
+- [Explore the research-computing lab](https://github.com/Hemalatha18-bio/research-computing-devops)
