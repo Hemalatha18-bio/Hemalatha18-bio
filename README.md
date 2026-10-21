@@ -6,6 +6,12 @@ I build **reproducible biological-data workflows** and **reliable scientific sof
 **M.S. Bioinformatics & Computational Biology — Saint Louis University (2026)**  
 **Current:** HPC Engineering Intern, Washington University in St. Louis (Aug 2026–present)
 
+## Professional portfolio website
+
+**[Explore my bioinformatics and HPC portfolio →](https://hemalatha18-bio.github.io/Hemalatha18-bio/)** *(available after the profile repository's GitHub Pages workflow is enabled and deployed)*
+
+[Website source](portfolio/index.html) · [Deployment workflow](.github/workflows/portfolio-pages.yml)
+
 ## Live HPC dashboard
 
 **[Launch my interactive HPC Observability Dashboard →](https://hemalatha18-bio.github.io/research-computing-devops/)**
