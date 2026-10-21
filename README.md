@@ -31,6 +31,12 @@ I build **reproducible biological-data workflows** and **reliable scientific sof
 
 *F3–F4 vs F0–F1 fibrosis contrast, based on public GEO GSE135251 processed counts. This is observational research, not a clinical test.*
 
+## Quality and reproducibility
+
+All six featured repositories include automated GitHub Actions CI. The live status badges in each project's README reflect the latest workflow result; reproducibility and data limitations are documented within each project.
+
+**Start here:** [Public-data NAFLD RNA-seq analysis](https://github.com/Hemalatha18-bio/nafld-rnaseq-transcriptomics) · [Live synthetic HPC dashboard](https://hemalatha18-bio.github.io/research-computing-devops/) · [Tested FASTQ CLI](https://github.com/Hemalatha18-bio/fastq-interleaving-cli)
+
 ## Technical toolkit
 
 - **Bioinformatics:** RNA-seq, NGS/FASTQ, gene expression, metagenomics, proteomics QC, FDR-aware analysis
